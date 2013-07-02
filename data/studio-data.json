@@ -1,0 +1,74 @@
+{
+  "IDEAS" :
+  {
+    "GAMES Project" :
+    {
+      "name" : "IDEAStudio explores the world of mobile devices in education through the GAMES project and he Learning Transformation Research Group",
+      "photos" : [
+        {
+          "0" : "http://ltrg.centers.vt.edu/Site/themed_images/themedObject.jpg",
+          "1" : "http://ltrg.centers.vt.edu/Site/themed_images/candySpan1.png",
+          "2" : "http://ltrg.centers.vt.edu/Site/themed_images/candySpan2.png",
+          "3" : "http://ltrg.centers.vt.edu/Site/themed_images/candySpan3.png",
+          "4" : "http://ltrg.centers.vt.edu/Site/themed_images/candyFactory4.jpg",
+          "5" : "http://ltrg.centers.vt.edu/Site/themed_images/candyFactory5.jpg",
+          "6" : "http://ltrg.centers.vt.edu/Site/themed_images/candyFactory6.jpg",
+          "7" : "http://ltrg.centers.vt.edu/Site/themed_images/candyFactory7.jpg",
+          "8" : "http://ltrg.centers.vt.edu/Site/themed_images/candyFactory8.jpg",
+          "9" : "http://ltrg.centers.vt.edu/Site/themed_images/candyFactory9.jpg"
+        }
+      ],
+      "videos" : [
+        {
+
+        }
+      ],
+      "desc" : "The GAMES Project is a three-year, NSF-funded program addressing the need to develop transformative learning experiences that leverage video games and mobile technologies. The focus is to target the learning of pre-algebraic fraction concepts in middle school students by examining links between motivation, engagement, and fraction proficiency. Michael A. Evans, an ICAT affiliate faculty member in Learning Sciences and Technology, is teamed with faculty and students from mathematics, psychology, computer science, and educational research to design and build a suite of games for use on mobile devices. The LTRG is currently working with schools in Montgomery County, Floyd County, and Danville City. Faculty investigators on this project include Osman Balci; Computer Science, Mido Chang; Educational Research and Evaluation, Kirby Deater-Deckard; Psychology, and Anderson Norton; Mathematics. You can learn more about the LTRG and the GAMES project at http://ltrg.centers.vt.edu."
+    },
+    "STEM" :
+    {
+      "name" : "IDEAStudio collaborates with middle school teachers to explore STEM concepts in a design-based, transdisciplinary learning environment",
+      "photos" : [
+        {
+
+        }
+      ],
+      "videos" : [
+        {
+
+        }
+      ],
+      "desc" : "Beginning in the fall of 2012, some eighth grade students at a local middle school will be studying their subject matter in an altogether different way every Friday. Two eighth grade teachers spent the summer working with IDEAStudio team members to plan a design-based curriculum that emphasizes the important connections among disciplines. The students’ objective will be to design an exhibit for the Science Museum of Western Virginia that demonstrates how to make their world a better place."
+    },
+    "MAKEr Camp" :
+    {
+      "name" : "MAKEr Camp",
+      "photos" : [
+        {
+         "0": "http://www.icat.vt.edu/Events/MAKErCAMP/M_Img1.jpg"
+        }
+      ],
+      "videos" : [
+        {
+
+        }
+      ],
+      "desc" : "What do design, DIY, robotics, engineering, and music all have in common? They all combine to create the successful ingredients for ICAT’s first ever MAKEr camp! On July 30, 2012, ICAT studio heads, researchers, and graduate students welcomed nearly thirty middle and high school-aged students to a week long camp designed to harness students’ creativity and encourage them to act on their curiosity. Campers experimented with sensors, circuitry, robotics, rapid prototyping, and the Pd-L2Ork K12 software as they used the design process to create custom musical instruments that responded to motion, sound, and touch sensors. Click here to see photos from the camp, and continue to check back for information about future events hosted by ICAT team members."
+    },
+    "Second Saturday Science" :
+    {
+      "name" : "Museum's 'Second Saturday Science' program showcased exhibitions from ICAT",
+      "photos" : [
+        {
+
+        }
+      ],
+      "videos" : [
+        {
+          "0" : "<iframe src=\"http://player.vimeo.com/video/54392624\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/54392624\">Bat Specimen Visualization</a> from <a href=\"http://vimeo.com/user2769362\">Dane Webster</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
+        }
+      ],
+      "desc" : "The Institute of Creativity, Arts, and Technology took some of its projects on the road, bringing a group of interactive exhibitions that merged creative technologies with the arts and education to the Science Museum of Western Virginia for its “Second Saturday Science” program. Children of all ages had the opportunity to virtually visit a Native American village near Jamestown, Va., during the time of early English settlement; see their dance moves transformed into digital art; and experiment with robots that respond to light and touch, among other activities. The event was the result of a budding partnership between the institute and the Science Museum of Western Virginia."
+    }
+  }
+}

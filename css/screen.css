@@ -1,0 +1,101 @@
+body {
+  background: black;
+  overflow: hidden;
+}
+
+#stats {
+  top: auto !important;
+  bottom: 0;
+}
+
+canvas {
+  margin-top: 20px;
+}
+
+.selected {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+}
+
+
+/* Lightbox styling*/
+#lightbox {
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  height: 60%;
+  width: 100%;
+
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+
+  background: grey;
+}
+
+.modal-control, .modal-content {
+  display: inline-block;
+  float: left;
+}
+
+.modal-control {
+  width: 15%;
+  height: 100%;
+  background: grey;
+}
+
+.modal-content {
+  width: 70%;
+  margin: 0.1% 0 0 0;
+  padding: 0;
+  background-color: black;
+  height: 99.3%;
+}
+
+.modal-footer {
+  color: white;
+  background-color: black;
+  border: none;
+  box-shadow: none;
+  height: 8%;
+}
+
+.modal-footer .close {
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-shadow: none;
+  opacity: 1;
+}
+
+.modal-body {
+  height: 70%;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-left: 60px solid light-grey;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-right:10px solid blue;
+}
