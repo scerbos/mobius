@@ -13,7 +13,7 @@ function init() {
   document.body.appendChild( container );
 
   camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
-  camera.position.y = 400;
+  camera.position.y = 1000;
 
   // controls
   controls = new THREE.OrbitControls( camera );
@@ -24,8 +24,8 @@ function init() {
 
   scene.add( new THREE.AmbientLight( 0x404040 ) );
 
-  light = new THREE.DirectionalLight( 0xffffff );
-  light.position.set( 0, 0, 1 );
+  light = new THREE.PointLight( 0xffffff );
+  light.position.set( 30, 400, 0 );
   scene.add( light );
 
   var map = THREE.ImageUtils.loadTexture( 'textures/text.jpg' );
@@ -55,6 +55,7 @@ function init() {
   geo = new THREE.ParametricGeometry( THREE.ParametricGeometries.mobius, 40, 40 );
   mobiusStrip = THREE.SceneUtils.createMultiMaterialObject( geo, materials );
   mobiusStrip.position.set( 10, 0, 0 );
+  mobiusStrip.rotation.x = -100;
   mobiusStrip.scale.multiplyScalar( 100 );
   scene.add( mobiusStrip );
 
@@ -93,7 +94,8 @@ function animate() {
 }
 
 function render() {
-
+  mobiusStrip.rotation.z = mobiusStrip.rotation.z + .004;
+  mobiusStrip.rotation.y = Math.sin($.now()/1000)/10;
   renderer.render( scene, camera );
 
 }
