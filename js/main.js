@@ -10,10 +10,10 @@ var mobiusStrip;
 function init() {
 
   container = document.createElement( 'div' );
-  document.body.appendChild( container );
+  $('#p1').prepend(container);
 
-  camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
-  camera.position.y = 1000;
+  camera = new THREE.PerspectiveCamera( 45, 1.6, 500, 2000 );
+  camera.position.y = 750;
 
   // controls
   controls = new THREE.OrbitControls( camera );
@@ -25,7 +25,7 @@ function init() {
   scene.add( new THREE.AmbientLight( 0x404040 ) );
 
   light = new THREE.PointLight( 0xffffff );
-  light.position.set( 30, 400, 0 );
+  light.position.set( 30, 600, 0 );
   scene.add( light );
 
   var map = THREE.ImageUtils.loadTexture( 'textures/text.jpg' );
@@ -102,4 +102,13 @@ function render() {
 
 function updateText(text) {
 
+}
+
+var canvas = $("canvas");
+
+var xOff=0, yOff=0;
+
+for(var obj = canvas; obj != null; obj = obj.offsetParent) {
+    xOff += obj.scrollLeft - obj.offsetLeft;
+    yOff += obj.scrollTop - obj.offsetTop;
 }

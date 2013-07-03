@@ -1,15 +1,35 @@
 body {
-  background: black;
+  /*background-color: black;*/
   overflow: hidden;
 }
-
+.navbar-inverse .navbar-inner a {
+  color: white;
+}
+.navbar-inverse .navbar-inner {
+  background-color: #660000;
+  background-image: none;
+  border-color: #660000;
+}
+#mobius p {
+  /*margin-top: 5px;*/
+  text-align: center;
+}
+#HCD {
+  margin-left: 50px;
+  margin-right: 50px;
+  /*text-align: center;*/
+}
 #stats {
   top: auto !important;
   bottom: 0;
 }
 
+
 canvas {
-  margin-top: 20px;
+  margin-top: -10px;
+  background: #ff6600;
+  width: 100% !important;
+  height: 500px !important;
 }
 
 .selected {
