@@ -19,6 +19,11 @@ body {
   margin-right: 50px;
   /*text-align: center;*/
 }
+#previous {
+  margin-left: 50px;
+  margin-right: 50px;
+  /*text-align: center;*/
+}
 #stats {
   top: auto !important;
   bottom: 0;
