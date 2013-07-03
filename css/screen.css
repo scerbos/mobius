@@ -16,25 +16,31 @@ body {
 }
 #HCD {
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 25px;
+  width: 45%;
+  font-size: .9em;
   /*text-align: center;*/
 }
+#pic {
+  height: 425px;
+}
 #previous {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 25px;
+  margin-right: -100px;
+  width: 45%;
+  /*height: 100px;*/
   /*text-align: center;*/
 }
 #stats {
-  top: auto !important;
-  bottom: 0;
+  top: 55px !important;
+  /*bottom: 0;*/
 }
-
 
 canvas {
   margin-top: -10px;
   background: #ff6600;
   width: 100% !important;
-  height: 500px !important;
+  height: 300px !important;
 }
 
 .selected {

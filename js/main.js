@@ -12,8 +12,8 @@ function init() {
   container = document.createElement( 'div' );
   $('#p1').prepend(container);
 
-  camera = new THREE.PerspectiveCamera( 45, 1.6, 500, 2000 );
-  camera.position.y = 750;
+  camera = new THREE.PerspectiveCamera( 35, 1.6, 500, 2000 );
+  camera.position.y = 1500;
 
   // controls
   controls = new THREE.OrbitControls( camera );
